@@ -8,18 +8,18 @@
 const ICERIK = {
 
   // ---------- GENEL BİLGİLER ----------
-  isim: "Adınız Soyadınız",                 // Sitenin her yerinde görünen adınız
+  isim: "Ege Sarp",                 // Sitenin her yerinde görünen adınız
   unvan: "Personal Trainer",                // Adınızın altında görünen ünvan
   whatsapp: "905XXXXXXXXX",                 // Başında + olmadan, örn: 905375019202
   whatsappMesaj: "Merhaba, PT paketleri hakkında bilgi almak istiyorum.", // WhatsApp'a tıklayınca hazır gelen mesaj
-  instagram: "kullanici_adiniz",            // Sadece kullanıcı adı, @ işareti olmadan
-  youtube: "",                              // YouTube kanal adresi (yoksa boş bırakın: "")
-  email: "ornek@email.com",                 // E-posta adresiniz (yoksa boş bırakın: "")
+  instagram: "Aegeus.1",            // Sadece kullanıcı adı, @ işareti olmadan
+  youtube: "https://www.youtube.com/@egesarp",                              // YouTube kanal adresi (yoksa boş bırakın: "")
+  email: "sarpege4@gmail.com",                 // E-posta adresiniz (yoksa boş bırakın: "")
 
   // ---------- ÜST BÖLÜM (HERO) ----------
   heroBaslik: "Harika bir değişime hazır mısınız?",
-  heroAltYazi: "Kişiye özel antrenman ve beslenme programlarıyla hedefinize birlikte ulaşalım.",
-  rozet1: "5+ Yıl Deneyim",                 // Başlığın yanındaki 1. rozet
+  heroAltYazi: "Kişiye özel antrenman, kür, peptit, ve beslenme programlarıyla hedefinize birlikte ulaşalım.",
+  rozet1: "8+ Yıl Deneyim",                 // Başlığın yanındaki 1. rozet
   rozet2: "Sertifikalı Antrenör",           // 2. rozet (yoksa boş bırakın: "")
   heroFoto: "",                             // img klasörüne foto atıp adını yazın, örn: "img/hero.jpg"
 
