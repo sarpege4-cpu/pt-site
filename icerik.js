@@ -57,7 +57,7 @@ const ICERIK = {
   // oneCikan: true yazarsanız o paket "EN POPÜLER" etiketiyle öne çıkar.
   paketler: [
     {
-    ad: "1 Aylık Full Coaching Tanışma Paketi",
+    ad: "1 Aylık Full CoachIng Tanışma Paketi",
     fiyat: "₺1.500",
     aciklama: "Kısa sürede daha kontrollü, bilinçli ve kişiye özel bir süreç başlatmak isteyenler için hazırlanmış kapsamlı coaching paketidir. Hedefin, mevcut durumun, antrenman geçmişin, beslenme düzenin ve yaşam tarzın değerlendirilerek sana özel bir sistem oluşturulur.",
     icerik: [
@@ -74,7 +74,7 @@ const ICERIK = {
       oneCikan: false
     },
     {
-      ad: "3 Aylık Full Coaching Paketi",
+      ad: "3 Aylık Full CoachIng Paketi",
     fiyat: "₺...",
     aciklama: "Daha ciddi, sürdürülebilir ve uzun vadeli bir dönüşüm hedefleyenler için hazırlanmış en kapsamlı coaching paketidir. 3 aylık süreç boyunca antrenman, beslenme, biohacking, kür planlaması ve düzenli takip bir arada yönetilir.",
     icerik: [
