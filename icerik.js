@@ -70,13 +70,11 @@ const ICERIK = {
       "Düzenli form kontrolü",
       "Gidişata göre program güncellemeleri",
       "Kan tahlili inceleme ve genel değerlendirme"
-    ]
-  },
-  {
+      ],
       oneCikan: false
     },
-   {
-    ad: "3 Aylık Full Coaching Paketi",
+    {
+      ad: "3 Aylık Full Coaching Paketi",
     fiyat: "₺...",
     aciklama: "Daha ciddi, sürdürülebilir ve uzun vadeli bir dönüşüm hedefleyenler için hazırlanmış en kapsamlı coaching paketidir. 3 aylık süreç boyunca antrenman, beslenme, biohacking, kür planlaması ve düzenli takip bir arada yönetilir.",
     icerik: [
