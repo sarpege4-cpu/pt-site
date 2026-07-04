@@ -10,7 +10,7 @@ const ICERIK = {
   // ---------- GENEL BİLGİLER ----------
   isim: "Ege Sarp",                 // Sitenin her yerinde görünen adınız
   unvan: "Personal Trainer",                // Adınızın altında görünen ünvan
-  whatsapp: "905XXXXXXXXX",                 // Başında + olmadan, örn: 905375019202
+  whatsapp: "905309739600",                 // Başında + olmadan, örn: 905375019202
   whatsappMesaj: "Merhaba, PT paketleri hakkında bilgi almak istiyorum.", // WhatsApp'a tıklayınca hazır gelen mesaj
   instagram: "Aegeus.1",            // Sadece kullanıcı adı, @ işareti olmadan
   youtube: "https://www.youtube.com/@egesarp",                              // YouTube kanal adresi (yoksa boş bırakın: "")
@@ -25,7 +25,7 @@ const ICERIK = {
 
   // ---------- HAKKIMDA ----------
   hakkimdaBaslik: "Neden Benimle Çalışmalısınız?",
-  hakkimdaYazi: "Buraya kendinizi tanıtan 2-3 cümle yazın. Deneyiminizden, eğitiminizden ve antrenman yaklaşımınızdan bahsedin.",
+  hakkimdaYazi: "Çünkü sadece program yazıp kenara çekilmiyorum. 8+ yıllık tecrübemle hedefini, düzenini ve mevcut durumunu anlayarak sana özel, uygulanabilir bir plan çıkarıyorum. Antrenman, beslenme, biohacking ve süreç takibini birlikte yöneterek daha kontrollü, bilinçli ve sonuç odaklı ilerlemeni sağlıyorum.",
   hakkimdaFoto: "",                         // img klasörüne foto atıp adını yazın, örn: "img/ben.jpg"
 
   // Hakkımda bölümündeki 4 kutu (başlık + açıklama)
@@ -57,40 +57,59 @@ const ICERIK = {
   // oneCikan: true yazarsanız o paket "EN POPÜLER" etiketiyle öne çıkar.
   paketler: [
     {
-      ad: "8 Seans Bire Bir PT",
-      fiyat: "₺X.XXX",
-      aciklama: "Başlangıç için ideal",
-      icerik: [
-        "Haftada 2 gün bire bir antrenman",
-        "Kişiye özel antrenman programı",
-        "Beslenme önerileri",
-        "WhatsApp desteği"
-      ],
+    ad: "1 Aylık Full Coaching Tanışma Paketi",
+    fiyat: "₺1.500",
+    aciklama: "Kısa sürede daha kontrollü, bilinçli ve kişiye özel bir süreç başlatmak isteyenler için hazırlanmış kapsamlı coaching paketidir. Hedefin, mevcut durumun, antrenman geçmişin, beslenme düzenin ve yaşam tarzın değerlendirilerek sana özel bir sistem oluşturulur.",
+    icerik: [
+      "Kişiye özel antrenman planı",
+      "Kişiye özel beslenme/diyet planı",
+      "Kür süreci planlama ve takip",
+      "Peptit, anabolik ve biohacking desteği",
+      "Supplement ve destek ürünleri planlaması",
+      "7/24 WhatsApp desteği",
+      "Düzenli form kontrolü",
+      "Gidişata göre program güncellemeleri",
+      "Kan tahlili inceleme ve genel değerlendirme"
+    ]
+  },
+  {
       oneCikan: false
     },
-    {
-      ad: "12 Seans Bire Bir PT",
-      fiyat: "₺X.XXX",
-      aciklama: "En çok tercih edilen",
-      icerik: [
-        "Haftada 3 gün bire bir antrenman",
-        "Kişiye özel antrenman programı",
-        "Kişiye özel beslenme planı",
-        "Düzenli ölçüm ve takip",
-        "WhatsApp desteği"
-      ],
+   {
+    ad: "3 Aylık Full Coaching Paketi",
+    fiyat: "₺...",
+    aciklama: "Daha ciddi, sürdürülebilir ve uzun vadeli bir dönüşüm hedefleyenler için hazırlanmış en kapsamlı coaching paketidir. 3 aylık süreç boyunca antrenman, beslenme, biohacking, kür planlaması ve düzenli takip bir arada yönetilir.",
+    icerik: [
+      "Kişiye özel antrenman planı",
+      "Kişiye özel beslenme/diyet planı",
+      "Hedefe göre uzun vadeli strateji",
+      "Kür süreci planlama ve takip",
+      "Peptit, anabolik ve biohacking desteği",
+      "Supplement ve destek ürünleri planlaması",
+      "7/24 WhatsApp desteği",
+      "Düzenli form kontrolü",
+      "Gidişata göre antrenman ve diyet güncellemeleri",
+      "Kan tahlili inceleme ve genel değerlendirme",
+      "Haftalık/periodik süreç değerlendirmesi",
+      "Gerektiğinde hedefe göre yeniden planlama"
+    ],
       oneCikan: true
     },
     {
-      ad: "Online Koçluk (Aylık)",
-      fiyat: "₺X.XXX",
-      aciklama: "Uzaktan eğitim",
-      icerik: [
-        "Kişiye özel antrenman programı",
-        "Kişiye özel beslenme planı",
-        "Haftalık form kontrolü",
-        "WhatsApp desteği"
-      ],
+    ad: "3 Aylık Beslenme & İdman Paketi",
+    fiyat: "₺...",
+    aciklama: "Kür, peptit veya ileri biohacking sürecine girmeden; düzenli antrenman, doğru beslenme ve istikrarlı takip ile fiziksel gelişim hedefleyenler için hazırlanmış pakettir. Hedefin, mevcut formun, günlük düzenin ve antrenman seviyen dikkate alınarak sana özel bir sistem oluşturulur.",
+    icerik: [
+      "Kişiye özel antrenman planı",
+      "Kişiye özel beslenme/diyet planı",
+      "Haftada 1 form kontrolü",
+      "Haftalık süreç değerlendirmesi",
+      "Gidişata göre plan güncellemeleri",
+      "Kilo, form ve performans takibi",
+      "Hedefe göre kalori ve makro ayarlamaları",
+      "Supplement önerileri",
+      "Daha düzenli, sürdürülebilir ve sonuç odaklı ilerleme sistemi"
+    ],
       oneCikan: false
     }
   ],
