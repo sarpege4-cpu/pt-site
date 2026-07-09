@@ -168,7 +168,7 @@ h1, h2, h3 { font-family: "Barlow Condensed", sans-serif; letter-spacing: .5px; 
   white-space: nowrap;
 }
 
-.paket-kart h3 { font-size: 1.5rem; text-transform: uppercase; margin-bottom: 4px; }
+.paket-kart h3 { font-size: 1.5rem; margin-bottom: 4px; }
 .paket-aciklama { color: var(--yazi-soluk); font-size: .9rem; margin-bottom: 18px; }
 .paket-fiyat {
   font-family: "Barlow Condensed", sans-serif;
