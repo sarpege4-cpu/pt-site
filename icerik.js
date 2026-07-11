@@ -21,12 +21,12 @@ const ICERIK = {
   heroAltYazi: "Kişiye özel antrenman, kür, peptit, ve beslenme programlarıyla hedefinize birlikte ulaşalım.",
   rozet1: "8+ Yıl Deneyim",                 // Başlığın yanındaki 1. rozet
   rozet2: "Sertifikalı Antrenör",           // 2. rozet (yoksa boş bırakın: "")
-  heroFoto: "",                             // img klasörüne foto atıp adını yazın, örn: "img/hero.jpg"
+  heroFoto: "img/hero.jpg",                 // img klasörüne foto atıp adını yazın, örn: "img/hero.jpg"
 
   // ---------- HAKKIMDA ----------
   hakkimdaBaslik: "Neden Benimle Çalışmalısınız?",
   hakkimdaYazi: "Çünkü sadece program yazıp kenara çekilmiyorum. 8+ yıllık tecrübemle hedefini, düzenini ve mevcut durumunu anlayarak sana özel, uygulanabilir bir plan çıkarıyorum. Antrenman, beslenme, biohacking ve süreç takibini birlikte yöneterek daha kontrollü, bilinçli ve sonuç odaklı ilerlemeni sağlıyorum.",
-  hakkimdaFoto: "",                         // img klasörüne foto atıp adını yazın, örn: "img/ben.jpg"
+  hakkimdaFoto: "img/ben.jpg",              // img klasörüne foto atıp adını yazın, örn: "img/ben.jpg"
 
   // Hakkımda bölümündeki 4 kutu (başlık + açıklama)
   ozellikler: [
@@ -95,7 +95,7 @@ const ICERIK = {
     },
     {
     ad: "3 Aylık Beslenme & İdman Paketi",
-    fiyat: "₺...",
+    fiyat: "₺4.500",
     aciklama: "Kür, peptit veya ileri biohacking sürecine girmeden; düzenli antrenman, doğru beslenme ve istikrarlı takip ile fiziksel gelişim hedefleyenler için hazırlanmış pakettir. Hedefin, mevcut formun, günlük düzenin ve antrenman seviyen dikkate alınarak sana özel bir sistem oluşturulur.",
     icerik: [
       "Kişiye özel antrenman planı",
