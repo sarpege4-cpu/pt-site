@@ -17,7 +17,7 @@ const ICERIK = {
   email: "sarpege4@gmail.com",                 // E-posta adresiniz (yoksa boş bırakın: "")
 
   // ---------- ÜST BÖLÜM (HERO) ----------
-  heroBaslik: "Harika bir değişime hazır mısınız?",
+  heroBaslik: "İnanılmaz bir değişime hazır mısınız?",
   heroAltYazi: "Kişiye özel antrenman, kür, peptit, ve beslenme programlarıyla hedefinize birlikte ulaşalım.",
   rozet1: "8+ Yıl Deneyim",                 // Başlığın yanındaki 1. rozet
   rozet2: "Sertifikalı Antrenör",           // 2. rozet (yoksa boş bırakın: "")
@@ -121,7 +121,7 @@ const ICERIK = {
       yazi: "Ege ile çalışmaya başladığımda 3 yıldır salona gidiyordum ama ilerleme kaydedemiyordum. İlk ay programın ve beslenmenin ne kadar eksik olduğunu fark ettim. 3 ayın sonunda hem güç hem görünüş olarak salondaki herkesin fark ettiği bir değişim yaşadım."
     },
     {
-      isim: "Emre Ç.",
+      isim: "Kerem D.",
       yazi: "Masa başı çalışıyorum, düzenim yoktu ve nereden başlayacağımı bilmiyordum. Programlar tamamen bana göre hazırlandı, her hafta form kontrolüyle takip etti. 3 ayda 8 kilo verdim ve ilk defa sporu bırakmadan devam ettirebiliyorum."
     }
   ],
