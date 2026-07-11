@@ -130,7 +130,7 @@ h1, h2, h3 { font-family: "Barlow Condensed", sans-serif; letter-spacing: .5px; 
   display: grid; grid-template-columns: 300px 1fr; gap: 40px;
   align-items: center; margin: 46px 0 50px;
 }
-.hakkimda-photo { aspect-ratio: 3/4; }
+.hakkimda-photo { aspect-ratio: 3/4; background-position: center 30%; }
 .hakkimda-text { color: var(--yazi-soluk); font-size: 1.08rem; }
 
 .ozellik-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
@@ -248,7 +248,7 @@ h1, h2, h3 { font-family: "Barlow Condensed", sans-serif; letter-spacing: .5px; 
   .hero-photo { max-width: 340px; }
 
   .hakkimda-grid { grid-template-columns: 1fr; }
-  .hakkimda-photo { max-width: 300px; margin: 0 auto; }
+  .hakkimda-photo { width: 100%; max-width: 300px; margin: 0 auto; }
 
   .ozellik-grid { grid-template-columns: 1fr 1fr; }
 }
