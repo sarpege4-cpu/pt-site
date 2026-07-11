@@ -117,35 +117,24 @@ const ICERIK = {
   yorumlarBaslik: "Danışanlarım Ne Diyor?",
   yorumlar: [
     {
-      isim: "Danışan Adı",
-      yazi: "Buraya danışanınızın yorumunu yazın. Örn: 3 ayda 10 kilo verdim, programlar tam bana göreydi."
+      isim: "Aydın T.",
+      yazi: "Ege ile çalışmaya başladığımda 3 yıldır salona gidiyordum ama ilerleme kaydedemiyordum. İlk ay programın ve beslenmenin ne kadar eksik olduğunu fark ettim. 3 ayın sonunda hem güç hem görünüş olarak salondaki herkesin fark ettiği bir değişim yaşadım."
     },
     {
-      isim: "Danışan Adı",
-      yazi: "İkinci danışan yorumu buraya."
+      isim: "Emre Ç.",
+      yazi: "Masa başı çalışıyorum, düzenim yoktu ve nereden başlayacağımı bilmiyordum. Programlar tamamen bana göre hazırlandı, her hafta form kontrolüyle takip etti. 3 ayda 8 kilo verdim ve ilk defa sporu bırakmadan devam ettirebiliyorum."
     }
   ],
 
   // ---------- SIK SORULAN SORULAR ----------
   // Soru eklemek/silmek için paketlerdeki gibi { ... }, bloklarını kopyalayın/silin.
   sssBaslik: "Sık Sorulan Sorular",
-  sss: [
-    {
-      soru: "Daha önce hiç spor yapmadım, bana uygun mu?",
-      cevap: "Kesinlikle. Programlar tamamen seviyenize göre hazırlanır, sıfırdan başlayanlarla da çalışıyorum."
-    },
-    {
-      soru: "Seanslar nerede yapılıyor?",
-      cevap: "Buraya çalıştığınız salonun adını ve semtini yazın."
-    },
-    {
-      soru: "Ödeme nasıl yapılıyor?",
-      cevap: "Buraya ödeme koşullarınızı yazın (havale, nakit, taksit vb.)."
-    }
-  ],
+  // SSS bölümü şu an gizli. Tekrar açmak için köşeli parantezin içine
+  // { soru: "...", cevap: "..." }, blokları ekleyin.
+  sss: [],
 
   // ---------- İLETİŞİM ----------
   iletisimBaslik: "İletişime Geçin",
   iletisimYazi: "Sorularınız için WhatsApp'tan yazabilir veya sosyal medyadan ulaşabilirsiniz.",
-  adres: "Salon adı ve semt (istemiyorsanız boş bırakın: \"\")"
+  adres: ""                                 // Adres satırı gizli. Göstermek için tırnak içine yazın.
 };
