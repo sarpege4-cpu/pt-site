@@ -122,7 +122,7 @@ const ICERIK = {
     },
     {
       isim: "Kerem D.",
-      yazi: "Masa başı çalışıyorum, düzenim yoktu ve nereden başlayacağımı bilmiyordum. Programlar tamamen bana göre hazırlandı, her hafta form kontrolüyle takip etti. 3 ayda 8 kilo verdim ve ilk defa sporu bırakmadan devam ettirebiliyorum."
+      yazi: "Masa başı çalışıyorum, düzenim yoktu ve nereden başlayacağımı bilmiyordum. Programlar tamamen bana göre hazırlandı, her hafta form kontrolüyle takip etti. 3 ayda 15 kilo verdim ve ilk defa sporu bırakmadan devam ettirebiliyorum."
     }
   ],
 
